@@ -6,7 +6,7 @@ title: Política de privacidad · Mayyita
 
 **Última actualización:** 18 de noviembre de 2026
 
-Mayyita es un bot de Discord. Esta política explica qué datos guarda, para qué, cuánto tiempo y cómo los borras. Se rige por la Ley N.° 29733 de Protección de Datos Personales del Perú.
+Mayyita es un bot de Discord. Esta política explica qué datos guarda, para qué, cuánto tiempo y cómo los borras. Respeta los derechos que te da la ley de protección de datos de donde vives.
 
 **Contacto:** el [server de soporte de Mayyita](https://discord.gg/3keaaX6xPU), en el canal #ticket. No damos correo ni otros datos personales.
 
@@ -30,8 +30,8 @@ Mayyita es un bot de Discord. Esta política explica qué datos guarda, para qu�
 **Tuyos, globales** (te siguen a todos los servers):
 - Perfil: XP, fondo, marco, título y si quieres salir en el ranking global.
 - Logros: cuáles tienes y cuándo los ganaste.
-- **Historial de avatares:** hasta 50 avatares tuyos, con la fecha en que el bot los vio, desde que el bot comparte un server contigo. Se guarda una copia de cada imagen en Cloudflare R2, porque los links viejos de Discord dejan de funcionar. **Cualquiera que tenga el link de una copia puede verla**, igual que tu avatar en Discord. Lo apagas con `,privacy avatares` (eso también lo borra).
-- **Historial de nombres:** hasta 50 nombres tuyos (tu nombre de usuario, tu nombre para mostrar y los apodos que usaste en cualquier server), con la fecha en que el bot los vio. Es global, igual que el de avatares. Lo apagas con `,privacy nombres` (eso también lo borra).
+- **Historial de avatares:** hasta 50 avatares tuyos, con la fecha en que el bot los vio. El bot los ve cuando comparte un server contigo, cuando usas un comando suyo, o cuando alguien te menciona o te busca con un comando (`,avatar`, `,banner`, `,ui`, `,names`), también desde la instalación de usuario. Solo es lo que Discord le muestra a cualquier bot: nunca usamos cuentas de usuario ni bases de otros. Se guarda una copia de cada imagen en Cloudflare R2, porque los links viejos de Discord dejan de funcionar. **Cualquiera que tenga el link de una copia puede verla**, igual que tu avatar en Discord. Lo apagas con `,privacy avatares` (eso también lo borra).
+- **Historial de nombres:** hasta 50 nombres tuyos (tu nombre de usuario, tu nombre para mostrar y los apodos que usaste en los servers donde está el bot), con la fecha en que el bot los vio. Se anotan en los mismos casos que los avatares; afuera de un server con el bot solo tu nombre de usuario y tu nombre para mostrar. Es global, igual que el de avatares. Lo apagas con `,privacy nombres` (eso también lo borra).
 - **Matrimonio:** con quién te casaste (`,marry`) y desde cuándo. Es global: sale en tu perfil en todos los servers. Lo deshaces con `,divorce`.
 - **Cumpleaños:** solo si lo pones tú (`,cumple set`), y solo el día y el mes (nunca el año). Sale en tu perfil, y los servers que prendieron el aviso te saludan ese día. Lo borras con `,cumple borrar`.
 
