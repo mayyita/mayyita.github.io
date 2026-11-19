@@ -36,6 +36,7 @@ Mayyita es un bot de Discord. Esta política explica qué datos guarda, para qu�
 - **Matrimonio:** con quién te casaste (`,marry`) y desde cuándo. Es global: sale en tu perfil en todos los servers. Lo deshaces con `,divorce`.
 - **Cuenta de Roblox vinculada:** solo si la vinculas tú (`,roblox link`): tu ID y tu usuario de Roblox, cuándo la vinculaste y cuánto valía tu fit la última vez que se calculó (para el top de fits). Es global: sale en tu perfil en todos los servers, pero el top de fits de cada server solo muestra a sus miembros. Mientras verificas, se guarda el código que pones en tu bio (vence a los 30 min). La quitas con `,roblox unlink`.
 - **Last.fm:** solo si lo pones tú (`,fm set`): tu usuario de Last.fm, cuándo lo pusiste y, si los cambias con `,fm react`, tus dos emojis de voto. Es global: `,fm` anda en todos los servers. Lo quitas con `,fm unlink`. Si lo conectaste, en `,fm whoknows` del server sales en el top de quién escucha más a un artista.
+- **Zona horaria:** solo si la pones tú (`,timezone set`): tu zona (por ejemplo "America/Lima") y desde cuándo. Es global: sirve para que `,timezone @tú` diga tu hora en todos los servers. La borras con `,timezone remove`.
 - **Cumpleaños:** solo si lo pones tú (`,cumple set`), y solo el día y el mes (nunca el año). Sale en tu perfil, y los servers que prendieron el aviso te saludan ese día. Lo borras con `,cumple borrar`.
 
 **Tuyos, en cada server** (no se cruzan entre servers):
@@ -84,6 +85,7 @@ No vendemos datos a nadie.
 - **Historial de nombres:** hasta que lo borres (`,clearnames`, `,privacy nombres` o `,privacy borrar`). Si pasas de 50, se borra el más viejo.
 - **Cuenta de Roblox vinculada:** hasta que la quites (`,roblox unlink` o `,privacy borrar`).
 - **Usuario de Last.fm:** hasta que lo quites (`,fm unlink` o `,privacy borrar`).
+- **Zona horaria:** hasta que la quites (`,timezone remove` o `,privacy borrar`).
 - **Seen:** solo la última vez, que se reemplaza cada vez que escribes. Hasta que lo apagues (`,privacy seen`), lo borres (`,privacy borraraqui` o `,privacy borrar`) o el bot salga del server.
 - **Palabras de highlight:** hasta que las quites (`,highlight remove`, `,highlight clear`, `,privacy borraraqui` o `,privacy borrar`).
 - **Matrimonio y cumpleaños:** hasta que los borres (`,divorce`, `,cumple borrar` o `,privacy borrar`). Para no saludarte dos veces, cada server anota que ya te saludó ese año.
@@ -95,7 +97,7 @@ No vendemos datos a nadie.
 - `,privacy`: muestra qué guardamos de ti.
 - `,privacy descargar`: te manda un archivo con **todo** lo que guardamos de ti (por DM, o solo para ti con `/privacy`). Una vez por hora. No incluye quién te sancionó, ni quién escribió notas sobre ti, ni el texto de esas notas (son evaluaciones internas de seguridad del staff; solo verás que existen y cuándo).
 - `,privacy borraraqui`: borra tus datos **solo en ese server** (roles guardados, economía, contadores sociales, sorteos, AFK, recordatorios, grupos, seen y highlight). Tu perfil global, tus avatares y tus nombres (que son globales) quedan.
-- `,privacy borrar`: borra tus roles guardados, tu economía en todos los servers, tu perfil global, tus logros, tus contadores sociales, tu historial de avatares (con sus copias), tu historial de nombres, tu cuenta de Roblox vinculada, tu usuario de Last.fm, tu seen y tus palabras de highlight en todos los servers, tu matrimonio (la otra persona queda soltera), tu cumpleaños, tus grupos y votos de grupos, y tus mensajes en memoria. Pide confirmación porque no se puede deshacer. **Se conservan** dos cosas: el comprobante de tu premium (si pagaste o booteaste, para no quitarte lo que ya tienes) y tus preferencias de privacidad (tus opt-outs, para no volver a activarte el seguimiento). Si también quieres borrar esas, abre un ticket en el [server de soporte](https://discord.gg/3keaaX6xPU).
+- `,privacy borrar`: borra tus roles guardados, tu economía en todos los servers, tu perfil global, tus logros, tus contadores sociales, tu historial de avatares (con sus copias), tu historial de nombres, tu cuenta de Roblox vinculada, tu usuario de Last.fm, tu seen y tus palabras de highlight en todos los servers, tu zona horaria, tu matrimonio (la otra persona queda soltera), tu cumpleaños, tus grupos y votos de grupos, y tus mensajes en memoria. Pide confirmación porque no se puede deshacer. **Se conservan** dos cosas: el comprobante de tu premium (si pagaste o booteaste, para no quitarte lo que ya tienes) y tus preferencias de privacidad (tus opt-outs, para no volver a activarte el seguimiento). Si también quieres borrar esas, abre un ticket en el [server de soporte](https://discord.gg/3keaaX6xPU).
 - `,privacy avatares`: apaga (y borra) o vuelve a prender tu historial de avatares.
 - `,clearavatars`: borra tu historial de avatares. Solo puedes borrar el tuyo.
 - `,privacy nombres`: apaga (y borra) o vuelve a prender tu historial de nombres.
