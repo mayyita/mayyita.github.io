@@ -4,7 +4,7 @@ title: Política de privacidad · Mayyita
 
 # Política de privacidad
 
-**Última actualización:** 18 de noviembre de 2026
+**Última actualización:** 19 de noviembre de 2026
 
 Mayyita es un bot de Discord. Esta política explica qué datos guarda, para qué, cuánto tiempo y cómo los borras. Respeta los derechos que te da la ley de protección de datos de donde vives.
 
@@ -13,7 +13,7 @@ Mayyita es un bot de Discord. Esta política explica qué datos guarda, para qu�
 ## Resumen corto
 
 - Guardamos lo mínimo para que el bot funcione en cada server: configuración, sanciones, economía y roles.
-- **El texto de los mensajes nunca se guarda en disco.** Vive en memoria hasta 2 horas, solo para el automod, los logs de mensajes editados o borrados y el snipe. `,highlight` lo lee al momento para avisarte y no lo guarda.
+- **El texto de tus mensajes del chat nunca se guarda en disco.** Vive en memoria unas horas como máximo (ver abajo), solo para el automod, los logs de mensajes editados o borrados y el snipe. `,highlight` lo lee al momento para avisarte y no lo guarda. Lo que sí se guarda es lo que escribes **dentro de un comando** para que funcione: sugerencias, etiquetas, recordatorios, el motivo del AFK y el de un ticket.
 - No vendemos ni compartimos tus datos. No los usamos para entrenar inteligencia artificial.
 - Borras tus datos cuando quieras con `,privacy borrar`. **Es gratis siempre.**
 
@@ -35,7 +35,8 @@ Mayyita es un bot de Discord. Esta política explica qué datos guarda, para qu�
 - **Historial de nombres:** hasta 50 nombres tuyos (tu nombre de usuario, tu nombre para mostrar y los apodos que usaste en los servers donde está el bot), con la fecha en que el bot los vio. Se anotan en los mismos casos que los avatares; afuera de un server con el bot solo tu nombre de usuario y tu nombre para mostrar. Es global, igual que el de avatares. Lo apagas con `,privacy nombres` (eso también lo borra).
 - **Matrimonio:** con quién te casaste (`,marry`) y desde cuándo. Es global: sale en tu perfil en todos los servers. Lo deshaces con `,divorce`.
 - **Cuenta de Roblox vinculada:** solo si la vinculas tú (`,roblox link`): tu ID y tu usuario de Roblox, cuándo la vinculaste y cuánto valía tu fit la última vez que se calculó (para el top de fits). Es global: sale en tu perfil en todos los servers, pero el top de fits de cada server solo muestra a sus miembros. Mientras verificas, se guarda el código que pones en tu bio (vence a los 30 min). La quitas con `,roblox unlink`.
-- **Last.fm:** solo si lo pones tú (`,fm set`): tu usuario de Last.fm, cuándo lo pusiste y, si los cambias con `,fm react`, tus dos emojis de voto. Es global: `,fm` anda en todos los servers. Lo quitas con `,fm unlink`. Si lo conectaste, en `,fm whoknows` del server sales en el top de quién escucha más a un artista.
+- **Last.fm:** solo si lo pones tú (`,fm set`): tu usuario de Last.fm, cuándo lo pusiste y, si los cambias con `,fm react`, tus dos emojis de voto. Es global: `,fm` anda en todos los servers. Lo quitas con `,fm unlink`. Cualquiera puede ver con `,fm @tú` lo que estás escuchando y tu usuario de Last.fm (con link a tu perfil). Si lo conectaste, en `,fm whoknows` del server sales en el top de quién escucha más a un artista.
+- **Temporadas:** tus puntos de cada temporada, cuánto sumaste por día (chat, voz, daily, jales y juegos: solo números, nunca el texto), tus insignias y tus pedidos de la tienda de la temporada. Tu nombre sale en el top global de la temporada. Se borra con `,privacy borrar`.
 - **Zona horaria:** solo si la pones tú (`,timezone set`): tu zona (por ejemplo "America/Lima") y desde cuándo. Es global: sirve para que `,timezone @tú` diga tu hora en todos los servers. La borras con `,timezone remove`.
 - **Cumpleaños:** solo si lo pones tú (`,cumple set`), y solo el día y el mes (nunca el año). Sale en tu perfil, y los servers que prendieron el aviso te saludan ese día. Lo borras con `,cumple borrar`.
 
@@ -45,6 +46,9 @@ Mayyita es un bot de Discord. Esta política explica qué datos guarda, para qu�
 - **Grupos (gangas, clanes…), si el server los usa:** en qué grupo estás, tu rango y desde cuándo; tu voto en las guerras (si eres staff) y en las encuestas entre grupos. Te sales con `,grupo salir`.
 - **Seen (`,seen`):** la última vez que el bot te vio escribir en ese server (la fecha y el canal, **nunca el texto**). Solo se guarda la última, y quien pregunta solo ve el canal si él también puede verlo. Lo apagas para ti en todos los servers con `,privacy seen` (también lo borra).
 - **Highlight (`,highlight`):** las palabras que tú pones (hasta 10 por server) para que el bot te avise por DM si alguien las dice. Solo te avisa de canales que puedes ver. Las quitas con `,highlight remove` o `,highlight clear`.
+- **Sugerencias (`,suggest`):** el texto de cada sugerencia que mandas, en qué server y cómo quedó. Se borran con `,privacy borraraqui` o `,privacy borrar`.
+- **Etiquetas (`,tag`):** el texto de las etiquetas que creas y que eres su autor. Son del server: con `,privacy borrar` quedan, pero ya sin tu nombre.
+- **Juegos de a dos (`,tresenraya`, `,conecta4`…):** contra quién jugaste, la apuesta y quién ganó. Las partidas terminadas se borran con `,privacy borrar`.
 - **Top semanal, si el server lo usa:** una foto por semana de cuánto XP llevas en ese server, para saber cuánto ganaste desde la anterior. Cada semana se reemplaza por la nueva.
 
 **De los servers, no de las personas:**
@@ -52,7 +56,7 @@ Mayyita es un bot de Discord. Esta política explica qué datos guarda, para qu�
 
 **Solo en memoria, nunca en disco:**
 - Texto de los últimos mensajes de cada canal: hasta 50 por canal y **máximo 2 horas**.
-- Para `,editsnipe` y `,reactionsnipe`: los últimos mensajes editados (antes y después) y las reacciones quitadas, hasta 10 por canal y **máximo 2 horas**.
+- Para `,snipe`, `,editsnipe` y `,reactionsnipe`: los últimos mensajes borrados o editados (antes y después) y las reacciones quitadas, hasta 10 por canal y **hasta 2 horas desde que se borraron o editaron** (un mensaje borrado justo antes de cumplir 2 horas puede seguir hasta unas 4 horas desde que se mandó).
 - Para `,reactionhistory` (solo el staff): quién puso o quitó qué reacción en un mensaje y cuándo, hasta 300 por canal y **máximo 2 horas**.
 - Tu avatar y tu banner, ya reducidos, hasta 1 hora, para dibujar tu tarjeta de perfil cuando alguien la pide (el banner va de fondo). Si tienes pareja, su avatar sale en chico en tu tarjeta. Se bajan de Discord en ese momento.
 - El estado personalizado: solo se mira para el rol de vanity y no se guarda.
@@ -96,8 +100,8 @@ No vendemos datos a nadie.
 
 - `,privacy`: muestra qué guardamos de ti.
 - `,privacy descargar`: te manda un archivo con **todo** lo que guardamos de ti (por DM, o solo para ti con `/privacy`). Una vez por hora. No incluye quién te sancionó, ni quién escribió notas sobre ti, ni el texto de esas notas (son evaluaciones internas de seguridad del staff; solo verás que existen y cuándo).
-- `,privacy borraraqui`: borra tus datos **solo en ese server** (roles guardados, economía, contadores sociales, sorteos, AFK, recordatorios, grupos, seen y highlight). Tu perfil global, tus avatares y tus nombres (que son globales) quedan.
-- `,privacy borrar`: borra tus roles guardados, tu economía en todos los servers, tu perfil global, tus logros, tus contadores sociales, tu historial de avatares (con sus copias), tu historial de nombres, tu cuenta de Roblox vinculada, tu usuario de Last.fm, tu seen y tus palabras de highlight en todos los servers, tu zona horaria, tu matrimonio (la otra persona queda soltera), tu cumpleaños, tus grupos y votos de grupos, y tus mensajes en memoria. Pide confirmación porque no se puede deshacer. **Se conservan** dos cosas: el comprobante de tu premium (si pagaste o booteaste, para no quitarte lo que ya tienes) y tus preferencias de privacidad (tus opt-outs, para no volver a activarte el seguimiento). Si también quieres borrar esas, abre un ticket en el [server de soporte](https://discord.gg/3keaaX6xPU).
+- `,privacy borraraqui`: borra tus datos **solo en ese server** (roles guardados, economía, contadores sociales, sorteos, AFK, recordatorios, grupos, seen, highlight y sugerencias; tus etiquetas quedan sin tu nombre). Tu perfil global, tus avatares y tus nombres (que son globales) quedan.
+- `,privacy borrar`: borra tus roles guardados, tu economía en todos los servers, tu perfil global, tus logros, tus contadores sociales, tu historial de avatares (con sus copias), tu historial de nombres, tu cuenta de Roblox vinculada, tu usuario de Last.fm, tu seen y tus palabras de highlight en todos los servers, tu zona horaria, tus sugerencias, tus sorteos, tu top semanal, tu rol de booster, tus partidas de a dos (y tu nombre de autor en las etiquetas), tu matrimonio (la otra persona queda soltera), tu cumpleaños, tus grupos y votos de grupos, y tus mensajes en memoria. Pide confirmación porque no se puede deshacer. **Se conservan** dos cosas: el comprobante de tu premium (si pagaste o booteaste, para no quitarte lo que ya tienes) y tus preferencias de privacidad (tus opt-outs, para no volver a activarte el seguimiento). Si también quieres borrar esas, abre un ticket en el [server de soporte](https://discord.gg/3keaaX6xPU).
 - `,privacy avatares`: apaga (y borra) o vuelve a prender tu historial de avatares.
 - `,clearavatars`: borra tu historial de avatares. Solo puedes borrar el tuyo.
 - `,privacy nombres`: apaga (y borra) o vuelve a prender tu historial de nombres.
